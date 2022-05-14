@@ -9,6 +9,6 @@ public class HelloWorldController {
 
     @GetMapping("/welcome")
     public String getWelcome(){
-        return "Welcome ";
+        return "Welcome to india";
     }
 }
