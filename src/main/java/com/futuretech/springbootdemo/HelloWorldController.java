@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @GetMapping("/welcome")
     public String getWelcome(){
-        return "Welcome to india";
+        return "Welcome to the world";
     }
 
     @PostMapping("/registration")
