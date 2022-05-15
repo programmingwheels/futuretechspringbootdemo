@@ -17,6 +17,11 @@ public class HelloWorldController {
     public String regoister(){
         return "Registration Successfull";
     }
+    
+    @PostMapping("/forgotpassword")
+    public String forgotPassword(){
+        return "Forgot Password ";
+    }
 
 
 }
